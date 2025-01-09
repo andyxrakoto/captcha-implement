@@ -73,7 +73,7 @@ const CapSequence = () => {
   };
 
   return (
-    <div>
+    <div className="all">
       <h1>Captcha App</h1>
       {sequence.length === 0 && !isLoading && (
         <form onSubmit={handleSubmit}>
